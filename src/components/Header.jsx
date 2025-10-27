@@ -180,21 +180,21 @@ const Header = () => {
 
                   <div className="pl-4 flex flex-col space-y-1">
                     <Link
-                      to="/mobile"
+                      to="/jobseeker"
                       className="font-bold text-gray-800 text-lg hover:text-blue-500 transition-colors"
                       onClick={() => setIsMobileMenuOpen(false)}
                     >
                       Job Seeker
                     </Link>
                     <Link
-                      to="/webdesign"
+                      to="/employee"
                       className="font-bold text-gray-800 text-lg hover:text-blue-500 transition-colors"
                       onClick={() => setIsMobileMenuOpen(false)}
                     >
                       Employee
                     </Link>
                     <Link
-                      to="/staff-augmentation"
+                      to="/client"
                       className="font-bold text-gray-800 text-lg hover:text-blue-500 transition-colors"
                       onClick={() => setIsMobileMenuOpen(false)}
                     >
