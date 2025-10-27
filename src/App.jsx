@@ -7,7 +7,7 @@ import ScrollToTop from "./ScrollToTop";
 import HeroSection from "./components/HeroSection";
 import ServicesSection from "./components/ServicesSection";
 import AboutSection from "./components/AboutSection";
-// import JobSection from "./components/JobSection";
+import JobSection from "./components/JobSection";
 import TestimonialSection from "./components/TestimonialSection";
 import ContactSection from "./components/ContactSection";
 import ClientLogos from "./components/ClientLogos";
@@ -21,7 +21,7 @@ import CareersPage from "./components/CareersPage";
 
 // import PortfolioPage from "./components/PortfolioPage";
 
-// Privacy Policy Page (simple placeholder)
+
 const PrivacyPolicyPage = () => {
   return (
     <div className="max-w-4xl mx-auto p-8">
@@ -48,7 +48,7 @@ function App() {
                 <HeroSection />
                 <AboutSection />
                 <ServicesSection />
-                {/* <JobSection /> */}
+                <JobSection />
                 <TestimonialSection />
                 <ClientLogos />
                 <ContactSection /> 
