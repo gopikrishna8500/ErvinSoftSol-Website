@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <>
       {/* Fixed Header */}
-      <header className="fixed w-full top-0 left-0 z-50 bg-gray-100 text-gray-800 shadow-md h-16 lg:h-20 transition-all duration-300">
+      <header className="fixed w-full top-0 left-0 z-50 bg-gray-200 text-gray-800 shadow-md h-16 lg:h-20 transition-all duration-300">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
