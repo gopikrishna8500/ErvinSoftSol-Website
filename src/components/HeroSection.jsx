@@ -65,7 +65,7 @@ const HeroSection = () => {
               <p className="text-sm md:text-base mb-4">{slide.description}</p>
 
               <button
-                className="px-5 py-2 bg-blue-600 hover:bg-blue-700 transition rounded-md text-sm font-medium uppercase"
+                className="px-5 py-2 bg-blue-900 hover:bg-blue-700 transition rounded-md text-sm font-medium uppercase"
                 onClick={() => navigate(slide.link)} 
               >
                 {slide.button}

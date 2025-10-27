@@ -12,7 +12,6 @@ const ContactSection = () => {
     return (
         <div className="w-full">
 
-            {/* ================= Contact Section ================= */}
             <section className="py-16 bg-gray-50">
                 <div className="max-w-7xl mx-auto px-4">
                     {/* Need Any Help Section */}
@@ -29,9 +28,9 @@ const ContactSection = () => {
                         <div className="bg-white p-8 rounded-lg shadow-sm">
                             <h3 className="text-xl font-semibold text-slate-800 mb-4">Email Us</h3>
                             <p className="text-gray-600 mb-4">Email us if you have any question.</p>
-                            <div className="flex items-center text-orange-500">
+                            <div className="flex items-center text-blue-900">
                                 <Mail className="h-5 w-5 mr-2" />
-                                <a href="mailto:info@aptips.com" className="text-orange-500 hover:underline">
+                                <a href="mailto:info@aptips.com" className="text-blue-900 hover:underline">
                                     info@ervinsoft.com
                                 </a>
                             </div>
@@ -105,7 +104,7 @@ const ContactSection = () => {
                                     {/* Companies */}
                                     <div className="flex flex-col items-center sm:items-start">
                                         <div className="flex items-center justify-center sm:justify-start mb-2">
-                                            <Users className="h-8 w-8 text-orange-500 mr-2" />
+                                            <Users className="h-8 w-8 text-blue-900 mr-2" />
                                             <span className="text-3xl font-bold text-gray-800">
                                                 {inView ? <CountUp start={0} end={240} duration={3} separator="," /> : 0}
                                             </span>
