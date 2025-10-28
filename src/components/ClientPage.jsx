@@ -121,7 +121,7 @@ const ClientPage = () => {
           </p>
           <Link
             to="/contact-us"
-            className="bg-blue-900 hover:bg-orange-600 text-white px-6 sm:px-8 py-2 sm:py-3 rounded-md text-sm sm:text-base md:text-lg font-semibold transition-colors shadow-lg hover:shadow-xl inline-block"
+            className="bg-blue-900 hover:bg-blue-600 text-white px-6 sm:px-8 py-2 sm:py-3 rounded-md text-sm sm:text-base md:text-lg font-semibold transition-colors shadow-lg hover:shadow-xl inline-block"
           >
             Contact Us
           </Link>

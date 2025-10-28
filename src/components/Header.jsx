@@ -117,10 +117,10 @@ const Header = () => {
             </nav>
 
             {/* Contact Info */}
-            <div className="hidden lg:flex items-center space-x-6">
-              <div className="flex items-center space-x-2 text-black-500">
-                <Phone className="w-4 h-4" />
-                <span className="text-sm font-bold">+1 (718) 715-0987</span>
+            <div className="hidden lg:flex items-center space-x-6 ">
+              <div className="flex items-center space-x-2 text-black">
+                <Phone className="w-4 h-4 " />
+                <span className="text-sm font-bold hover:text-blue-500">+1 (718) 715-0987</span>
               </div>
               <button className="ml-6 bg-blue-900 hover:bg-blue-500 px-4 py-2 rounded-md text-sm flex items-center space-x-2 transition-colors font-bold text-white">
                 <Mail className="w-4 h-4" />
