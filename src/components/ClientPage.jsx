@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom"; // <-- Added this import
+import { Link } from "react-router-dom"; 
 import productChainImg from '../assets/product-chain.png';
 import softwareEngineerImg from '../assets/softwareengineer.png';
 import teamLeaderImg from '../assets/team-leader.png';
